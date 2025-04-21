@@ -1,15 +1,4 @@
-# Ignore IntelliJ IDEA files
-.idea/
-
-# Ignore Maven wrapper files
-.mvn/
-mvnw.cmd
-
-# Ignore build output directories
 target/
-
-# Ignore the HELP.md file
-HELP.md
-
-# ignore the Data file
-data
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
