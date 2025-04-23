@@ -1,7 +1,8 @@
+.idea/
 .mvn/wrapper/
 data/
 .gitattributes
 HELP.md
 mvnw
 mvnw.cmd
-.idea/
+
