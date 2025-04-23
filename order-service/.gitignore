@@ -1,5 +1,5 @@
 .mvn/wrapper/
-data/mongodb/
+data/
 .gitattributes
 HELP.md
 mvnw
