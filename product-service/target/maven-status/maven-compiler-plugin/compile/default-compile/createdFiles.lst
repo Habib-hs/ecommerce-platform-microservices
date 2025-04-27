@@ -1,0 +1,8 @@
+com\habib\microservices\product\controller\ProductController.class
+com\habib\microservices\product\dto\ProductRequest.class
+com\habib\microservices\product\dto\ProductResponse.class
+com\habib\microservices\product\service\ProductService.class
+com\habib\microservices\product\repository\ProductRepository.class
+com\habib\microservices\product\model\Product$ProductBuilder.class
+com\habib\microservices\product\model\Product.class
+com\habib\microservices\product\ProductServiceApplication.class
