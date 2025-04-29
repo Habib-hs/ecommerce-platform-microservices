@@ -1,5 +1,6 @@
 package com.habib.microservices.order.service;
 
+import com.habib.microservices.order.client.InventoryClient;
 import com.habib.microservices.order.dto.OrderRequest;
 import com.habib.microservices.order.model.Order;
 import com.habib.microservices.order.respository.OrderRepository;
@@ -26,7 +27,7 @@ public class OrderService {
                 order.setQuantity(orderRequest.quantity());
                 orderRepository.save(order);
             }else{
-                throw new RuntiemeException("PRODUCT with skuCode: " + orderRequest.skuCode() + " is not in stock");
+                throw new RuntimeException("PRODUCT with skuCode: " + orderRequest.skuCode() + " is not in stock");
             }
     }
 }
